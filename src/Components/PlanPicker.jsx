@@ -22,7 +22,7 @@ function PlanPicker(){
         <div>
        <div className="flex items-end justify-between bg-[#000000] px-20 py-12 text-[#EEEEEE]">
         
-        <Summary seats={seats} months={months}customer ="Lawrence Isaac R. Lapig"/>
+        <Summary seats={seats} months={months}customers ="Lawrence Isaac R. Lapig"/>
         <Controls handleAddSeat={handleAddSeat} handleAddMonth={handleAddMonth} handleReset={handleReset}/>
         </div>
         <main className="grid grid-cols-3 gap-8 px-20 pt-10">
